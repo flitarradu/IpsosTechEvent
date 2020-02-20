@@ -2,9 +2,12 @@ using System;
 
 namespace Ipsos.TechEvent
 {
-	public class ChildExampleClass : ExampleClass, IExampleChildClass
+	public class ChildExampleClass : ExampleClass
 	{
-		public ChildExampleClass() { }
+		public ChildExampleClass() 
+		{ 
+			
+		}
 
 		public override int ShouldNotBeImplemented(int? arg = null)
 		{
@@ -16,7 +19,7 @@ namespace Ipsos.TechEvent
 			return arg ?? 15;
 		}
 
-		public void ChildAccessModifiers()
+		public override void ChildAccessModifiers()
 		{
 			System.Console.WriteLine($"ChildExampleClass: {this.ProtectedProperty}");
 			System.Console.WriteLine($"ChildExampleClass: {this.InternalProperty}");

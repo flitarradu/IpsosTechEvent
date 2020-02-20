@@ -23,6 +23,40 @@ namespace Ipsos.TheEpicObjective
 			/*
 			var parent = new ExampleClass();
 			var child = new ChildExampleClass();
+			// parent._age = 255;
+			parent.Age = 50;
+			parent.ShouldNotBeImplemented();
+
+			object o = parent;
+			object t = new {t = 1};
+			System.Console.WriteLine(o.ToString()); 
+			System.Console.WriteLine(parent.ToString());
+			System.Console.WriteLine(t.ToString());
+
+			// A child can be a parent
+			ExampleClass p = child;
+
+			// A parent cannot be a child
+			// ChildExampleClass c = parent;
+			
+			// An abstract class cannot be istantiated
+			//var x = new ExampleAbstractClass();
+
+			ExampleAbstractClass.StaticRandom();
+
+			var p1 = new ExampleClass();
+			var p2 = new ChildExampleClass();
+
+			p1.SecondVariable = 15;
+			p2.SecondVariable = 20;
+
+			ExampleClass.RandomVariable = 25;
+
+			p1.ChildAccessModifiers();
+			p2.ChildAccessModifiers();
+
+
+
 			//*/
 
 			/*
