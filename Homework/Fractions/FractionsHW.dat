@@ -1,0 +1,16 @@
+Sa se scrie o clasa in limbajul C# care sa ajute developerii sa lucreze cu fractii. Numitorul si numaratorul vor fi considerate 'int'. 
+Aceasta clasa va expune urmatoarele metode:
+1. Simplify - va simplifica fractia
+2. Amplify - va amplifica fractia
+
+Se vor supraincarca urmatorii operatori: adunare, scadere, inmultire, impartire (https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/operator-overloading). Toti operatorii trebuie sa faca simplificarea ulterioara
+
+Criterii de acceptanta:
+1. Evitarea impartirii la 0
+2. Adunarea
+3. Scaderea
+4. Inmultirea
+5. Impartirea
+6. Operatii cu mai mult termeni
+7. Se va crea o clasa care va mosteni clasa voastra implementata si va calcula ridicarea la patrat prin inmulire repetata
+8. Se va crea o clasa care va mosteni clasa voastra implementata care va suprascrie numarul de zecimale folosit la afisarea pe ecran a rezultatului (in forma zecimala)
